@@ -18,3 +18,5 @@ Once the plugin finishes installing, you will see "Done!" pop up. Go ahead and r
 Reload your page, and you should be able to find the Print Queue plugin either on the taskbar at the top, or under the dropdown at the end of the taskbar.
 
 In terms of using the plugin, here "https://youtu.be/NZgjl8W5yrE" is a video with a mini showcase of how to use the UI (its plugin 1). You will have to come up with the gcode yourself, but there is plenty of documentation on the interent. Good luck!
+
+Note: If after clicking print, nothing appears to happen, chances are you have encounted an error. Check the octoprint.log file; if you get the error "octoprint.printer.InvalidFileLocation: /home/pi/.octoprint/uploads/...", you will need to change the path to your uploads folder under the __init__.py file (around line 19). 
